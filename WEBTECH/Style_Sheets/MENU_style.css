@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #494646;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.text ul{
+  float: left;
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  position: relative;
+  top: -95px;
+  left: -15px;
+  padding: 0 80px;
+  margin: 0 50px;
+  z-index: 50;
+}
+
+.text_1 ul{
+  float: left;
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  position: relative;
+  top: 10px;
+  left: -15px;
+  padding: 0 80px;
+  margin: 0 50px;
+  z-index: 50;
+}
+
+.order ul li
+{
+  float: left;
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  margin: 0 50px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: -100;
+}
+.button ul li
+{
+  float: left;
+  display: inline-block;
+  list-style: none;
+}
+.button ul li a
+{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Timeless', sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: -500px;
+  left: 100px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: #8f0202;
+  color: #fff;
+}
+
+#btn1
+{
+  position: relative;
+  left: 175px;
+}
+
+#btn2
+{
+  position: relative;
+  left: 475px;
+}
+
+#btn3
+{
+  position: relative;
+  left: 755px;
+}
+
+#btn4
+{
+  position: relative;
+  left: -410px;
+}
+
+#btn5
+{
+  position: relative;
+  left: -110px;
+}
+
+#btn6
+{
+  position: relative;
+  left: 175px;
+}
+
+.button_1 ul li
+{
+  float: left;
+  display: inline-block;
+  list-style: none;
+}
+.button_1 ul li a
+{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Timeless', sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 70px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: #8f0202;
+  color: #fff;
+}
+
+.order_1 ul li
+{
+  float: left;
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  margin: 0 50px;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  z-index: -100;
+}
+
+#first{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/Croissant.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+#second{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/Cookies.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+#third{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/French Bread.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+
+#fourth{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/Pretzels.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+#fifth{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/Cookies.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+#sixth{
+  width: 354px;
+  height: 191px;
+  padding-bottom: 150px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  background-image: url("../Style_Sheets/IMG/Bagels.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -100;
+}
+
+#list_1{
+  position: relative;
+  left: 0px;
+}
+#list_2{
+  position: relative;
+  left: -10px;
+}
+#list_3{
+  position: relative;
+  left: -25px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #8f0202;
+}
+
+.Header ul{
+  margin-left: 0;
+
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+.Header ul li{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 100px;
+  margin: 0 10px;
+}
+.Header ul li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Timeless', sans-serif;
+  font-weight: 600;
+  padding: 15px 40px;
+  border-radius: 15px;
+  color: #fff;
+}
+.Header ul li a:hover {
+  background-color: #eee;
+  color: #8f0202;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}

@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: #8f0202;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.order ul li
+{
+  float: left;
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+  margin: 0 30px;
+  position: relative;
+  top: 150px;
+  left: -455px;
+  z-index: -100;
+}
+
+.text a{
+  text-decoration: none;
+  z-index: 1000;
+}
+#Logo{
+  width: 1530px;
+  height: 464px;
+  margin: auto;
+  position: relative;
+  top: -100px;
+  left: -10px;
+  background-image: url("../Style_Sheets/IMG/BG1.jpg");
+  background-size: 100%;
+  backteground-repeat: no-repeat;
+  z-index:-100;
+}
+
+
+#p1{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 400px;
+  border-color: #F9C708;
+  background-image: url("../Style_Sheets/IMG/mayor1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+
+#text1{
+  text-decoration: none;
+  width:100px;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  text-align: justify;
+  position: relative;
+  top:270px;
+  left:80px;
+  color: #fff;
+  z-index: 500;
+}
+
+#t2{
+  width:800px;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  text-align: justify;
+  position: relative;
+  top:250px;
+  left:55px;
+  color: #fff;
+  z-index: 500;
+}
+#t3{
+  width:800px;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  text-align: justify;
+  position: relative;
+  top:210px;
+  left:410px;
+  color: #fff;
+  z-index: 500;
+}
+#t4{
+  width:800px;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  text-align: justify;
+  position: relative;
+  top:165px;
+  left:795px;
+  color: #fff;
+  z-index: 500;
+}
+#t5{
+  width:200px;
+  font-size: 30px;
+  font-family: 'Timeless', sans-serif;
+  text-align: justify;
+  position: relative;
+  top:120px;
+  left:1235px;
+  color: #fff;
+  z-index: 500;
+}
+
+#p2{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 400px;
+  border-color: #F9C708;
+  background-image: url("../Style_Sheets/IMG/armel.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+#p3{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 400px;
+  border-color: #F9C708;
+  background-image: url("../Style_Sheets/IMG/jerald.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+#p4{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 400px;
+  border-color: #F9C708;
+  background-image: url("../Style_Sheets/IMG/jairha.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+#p5{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 400px;
+  border-color: #F9C708;
+  background-image: url("../Style_Sheets/IMG/anne.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+#text{
+  width:800px;
+  font-size: 60px;
+  margin: 0px 0px;
+  font-family: 'Prata', serif;
+  font-weight: bolder;
+  position: relative;
+  z-index: 700;
+  top:-550px;
+  left:200px;
+  color: #eee;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  z-index: 1500;
+}
+
+ul{
+  margin-left: 0;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 100px;
+  margin: 0 10px;
+  z-index: 1500px;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Timeless', sans-serif;
+  font-weight: 600;
+  padding: 15px 40px;
+  border-radius: 15px;
+  color: #FFF;
+  z-index: 1500px;
+}
+ul li a:hover {
+  background-color: #FFF;
+  color: #8f0202;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  z-index: 1500px;
+}
